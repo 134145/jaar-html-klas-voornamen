@@ -17,3 +17,8 @@
 /************************* YOUR SETTINGS *************************/
 
 /* add your css here, feel free to use comments and order them logically for better readability */
+nav {
+   background-color: #b3d0ea;
+   text-align: center;
+   height: 100px;
+}
