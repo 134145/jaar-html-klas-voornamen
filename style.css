@@ -31,6 +31,12 @@ header {
    
 }
 
+footer {
+  width: 1000px;
+  margin-top: 50px;
+  margin: auto;
+}
+
 #subpart {
    border-top: solid;
    border-bottom: solid;
@@ -64,29 +70,34 @@ header {
 
 article {
    font-family: 'Times New Roman', Times, serif;
-   font-size: 33px;
+   
    width: 200px;
-   border: solid;
+   
    
 }
 
 .article1 {
    float: left;
-   padding-right: 400px;
-   width: fit-content;
+   padding-right: 200px;
+   width: 400px;
+   font-size: 33px;
+   text-align: justify;
 }
 
 #articlemain {
    float: left;
-   
-   width: 200;
+   font-size: 25px;
+   width: 320px;
+   margin-right: 80px;
+   text-align: justify;
 }
 
 .article2 {
    float: right;
-   margin-left: 300px;
-   width: 200px;
-   
+   margin-left: 90px;
+   width: 410px;
+   font-size: 33px;
+   text-align: justify;
 }
 #bovenafbeelding, #afbeelding, #onderafbeelding {
    text-align: right;
@@ -110,7 +121,7 @@ article {
    font-size: 38px;
 }
 .afbeelding, .afbeelding2, #afbeelding {
-   width: fit-content;
+   
    border: solid;
    border-width: 4px;
    border-color: #e59902;
@@ -118,6 +129,7 @@ article {
  
    
 }
+
 #onderafbeelding {
    width: 400px;
 }
@@ -175,4 +187,22 @@ background-color: #70BCEB;
  a {
    color: green;
  }
- 
+ ul {
+ width: fit-content;
+  font-size: 38px;
+  margin-top: 50px;
+  font-weight: bold;
+  
+ }
+ .contactlijst {
+   float: left;
+   margin-left: 50px;
+ }
+ .contactlijst2 {
+   float: right;
+   margin-right: 150px;
+ }
+ li {
+   font-size: 22px;
+   font-weight: normal;
+ }
