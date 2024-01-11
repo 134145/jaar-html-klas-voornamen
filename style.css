@@ -19,8 +19,12 @@
 /* add your css here, feel free to use comments and order them logically for better readability */
 nav {
    background-color: #b3d0ea;
-  
+  border: #b3d0ea;
+  border-radius: 20px;
    height: 100px;
+}
+body {
+   background-color: #3e7394;
 }
 header {
    font-family: sans-serif;
@@ -31,19 +35,30 @@ header {
    
 }
 
-footer {
+table {
   width: 1000px;
-  margin-top: 50px;
+  padding-top: 50px;
   margin: auto;
+  
+ margin-top: 50px;
+  text-align: center;
 }
+td {
+   padding: 20px;
+   height: 180px;
+   font-size: larger;
+   font-style: italic;
+   font-size: large;
 
+}
 #subpart {
    border-top: solid;
    border-bottom: solid;
    margin: auto;
-   margin-top: 30px;
+   
    margin-bottom: 30px;
    font-size: 50px;
+   
    
 }
 
@@ -142,6 +157,7 @@ background-color: #70BCEB;
    width: 1000px;
  height: 800px;
    margin: auto;
+   margin-top: 0px;
  
  }
  .wrapper2 {
@@ -164,23 +180,19 @@ background-color: #70BCEB;
 
  #logoafbeelding {
    text-align: left;
-   padding: 10px;
-   width: 240px;
+   margin-left: 1%;
+   width: fit-content;
    float: left;
  }
 
- .navlink {
+ .navlink, #navlinkrn {
    float: left;
-   width: 240px;
+   margin-left: 16%;
    padding-top: 40px;
-   
+   width: fit-content;
  }
 
  #navlinkrn {
-   float: left;
-   width: 240px;
-   padding-top: 40px;
-   color: purple;
    cursor: not-allowed;
  }
 
@@ -196,11 +208,11 @@ background-color: #70BCEB;
  }
  .contactlijst {
    float: left;
-   margin-left: 50px;
+   margin-left: 5%;
  }
  .contactlijst2 {
    float: right;
-   margin-right: 150px;
+   margin-right: 15%;
  }
  li {
    font-size: 22px;
