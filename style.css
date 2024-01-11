@@ -45,11 +45,14 @@ table {
 }
 td {
    padding: 20px;
-   height: 180px;
-   font-size: larger;
-   font-style: italic;
+   height: fit-content;
    font-size: large;
-
+   font-style: italic;
+   font-weight: 550;
+   padding-top: 60px;
+}
+#contable {
+   padding: 60px;
 }
 #subpart {
    border-top: solid;
@@ -64,23 +67,25 @@ td {
 
 #DKmakelaars {
    padding-top: 30px;
-   padding-bottom: 15px;
+   padding-bottom: 10px;
    font-size: 50px;
+   padding-left: 20px;
 }
 
 .adres, .adres2 {
-   font-size: 30px;
+   font-size: 35px;
    width: fit-content;
-   border: solid;
+   ;
    margin-top: 100px;
 }
 .adres {
    float: left;
-   
+   padding-left: 20px;
 }
 .adres2 {
    float: right;
    margin-left: 50px;
+   padding-right: 20px;
 }
 
 article {
@@ -93,10 +98,12 @@ article {
 
 .article1 {
    float: left;
-   padding-right: 200px;
+   padding-right: 180px;
    width: 400px;
    font-size: 33px;
-   text-align: justify;
+   text-align: left;
+   padding-left: 20px;
+   
 }
 
 #articlemain {
@@ -104,7 +111,8 @@ article {
    font-size: 25px;
    width: 320px;
    margin-right: 80px;
-   text-align: justify;
+   text-align: left;
+   padding-left: 2%;
 }
 
 .article2 {
@@ -112,7 +120,8 @@ article {
    margin-left: 90px;
    width: 410px;
    font-size: 33px;
-   text-align: justify;
+   text-align: right;
+   padding-right: 20px;
 }
 #bovenafbeelding, #afbeelding, #onderafbeelding {
    text-align: right;
@@ -121,19 +130,21 @@ article {
 .afbeelding {
    float: right;
    margin-top: 100px;
+   border-radius: 5px;
 }
 
 .afbeelding2 {
    float: left;
    text-align: left;
    margin-top: 100px;
+   border-radius: 5px;
 }
 
 #bovenafbeelding {
    width: 400px;
    font-family: sans-serif;
    font-weight: bold;
-   font-size: 38px;
+   font-size: 28px;
 }
 .afbeelding, .afbeelding2, #afbeelding {
    
