@@ -8,7 +8,7 @@
    Warning 1: this settings may change your layout.
    Warning 2: keep the * as selector for all tags when uncommenting. */
 /*  * {border: 1px dotted black;}   */
-  
+
 /* Add semi-transparant dark background to all boxes
    The more boxes are on top of eachother the darker tghe background color
    Warning: keep the * as selector for all tags when uncommenting. */
@@ -19,50 +19,53 @@
 /* add your css here, feel free to use comments and order them logically for better readability */
 nav {
    background-color: #b3d0ea;
-  border: #b3d0ea;
-  border-radius: 20px;
+   border: #b3d0ea;
+   border-radius: 20px;
    height: 100px;
 }
-body {
-   background-color: #3e7394;
-}
-header {
-   font-family: sans-serif;
-   font-weight: bold;
-   
+
+.navlink,
+#navlinkrn {
+   float: left;
+   margin-left: 16%;
+   padding-top: 40px;
    width: fit-content;
-  
-   
 }
 
-table {
-  width: 1000px;
-  padding-top: 50px;
-  margin: auto;
-  
- margin-top: 50px;
-  text-align: center;
+/* de tekst op de nav van de subpagina waar je nu bent */
+#navlinkrn {
+   cursor: not-allowed;
 }
-td {
-   padding: 20px;
-   height: fit-content;
-   font-size: large;
-   font-style: italic;
-   font-weight: 550;
-   padding-top: 60px;
+
+body {
+   background-color: #3e7394;
+
 }
-#contable {
-   padding: 60px;
-}
-#subpart {
-   border-top: solid;
-   border-bottom: solid;
+
+/* donkerder */
+.wrapper1 {
+   background-color: #70BCEB;
+   width: 1000px;
+   height: 800px;
    margin: auto;
-   
-   margin-bottom: 30px;
-   font-size: 50px;
-   
-   
+   margin-top: 0px;
+
+}
+
+/* lichter */
+.wrapper2 {
+   background-color: #b3d0ea;
+   width: 1000px;
+   height: 600px;
+   margin: auto;
+
+}
+
+#logoafbeelding {
+   text-align: left;
+   margin-left: 1%;
+   width: fit-content;
+   float: left;
 }
 
 #DKmakelaars {
@@ -72,38 +75,37 @@ td {
    padding-left: 20px;
 }
 
-.adres, .adres2 {
+header {
+   font-family: sans-serif;
+   font-weight: bold;
+   width: fit-content;
+}
+
+/* de grote letters die de huidige subpagina aangeven */
+#subpart {
+   border-top: solid;
+   border-bottom: solid;
+   margin: auto;
+   margin-bottom: 30px;
+   font-size: 50px;
+}
+
+.adres,
+.adres2 {
    font-size: 35px;
    width: fit-content;
-   ;
    margin-top: 100px;
 }
+
 .adres {
    float: left;
    padding-left: 20px;
 }
+
 .adres2 {
    float: right;
    margin-left: 50px;
    padding-right: 20px;
-}
-
-article {
-   font-family: 'Times New Roman', Times, serif;
-   
-   width: 200px;
-   
-   
-}
-
-.article1 {
-   float: left;
-   padding-right: 180px;
-   width: 400px;
-   font-size: 33px;
-   text-align: left;
-   padding-left: 20px;
-   
 }
 
 #articlemain {
@@ -115,6 +117,22 @@ article {
    padding-left: 2%;
 }
 
+article {
+   font-family: 'Times New Roman', Times, serif;
+   width: 200px;
+}
+
+.article1 {
+   float: left;
+   padding-right: 180px;
+   width: 400px;
+   font-size: 33px;
+   text-align: left;
+   padding-left: 20px;
+}
+
+
+
 .article2 {
    float: right;
    margin-left: 90px;
@@ -123,10 +141,14 @@ article {
    text-align: right;
    padding-right: 20px;
 }
-#bovenafbeelding, #afbeelding, #onderafbeelding {
+
+#bovenafbeelding,
+#afbeelding,
+#onderafbeelding {
    text-align: right;
    float: right;
 }
+
 .afbeelding {
    float: right;
    margin-top: 100px;
@@ -146,86 +168,72 @@ article {
    font-weight: bold;
    font-size: 28px;
 }
-.afbeelding, .afbeelding2, #afbeelding {
-   
+
+.afbeelding,
+.afbeelding2,
+#afbeelding {
    border: solid;
    border-width: 4px;
    border-color: #e59902;
    padding: 0px;
- 
-   
 }
 
 #onderafbeelding {
    width: 400px;
 }
 
+iframe {
+   border: none;
+}
 
-
-
-.wrapper1 {
-background-color: #70BCEB;
-   width: 1000px;
- height: 800px;
-   margin: auto;
-   margin-top: 0px;
- 
- }
- .wrapper2 {
-   background-color: #b3d0ea;
-      width: 1000px;
-    height: 600px;
-      margin: auto;
-    
-    }
- 
- #pijl {
-   margin-top: 400px;
-   margin-right: 200px;
-   margin-left: 600px;
-   border: solid;
-   text-align: right;
-  width: fit-content;
-  
- }
-
- #logoafbeelding {
-   text-align: left;
-   margin-left: 1%;
-   width: fit-content;
-   float: left;
- }
-
- .navlink, #navlinkrn {
-   float: left;
-   margin-left: 16%;
-   padding-top: 40px;
-   width: fit-content;
- }
-
- #navlinkrn {
-   cursor: not-allowed;
- }
-
- a {
+a {
    color: green;
- }
- ul {
- width: fit-content;
-  font-size: 38px;
-  margin-top: 50px;
-  font-weight: bold;
-  
- }
- .contactlijst {
+}
+
+ul {
+   width: fit-content;
+   font-size: 38px;
+   margin-top: 50px;
+   font-weight: bold;
+}
+
+.contactlijst {
    float: left;
    margin-left: 5%;
- }
- .contactlijst2 {
+}
+
+.contactlijst2 {
    float: right;
    margin-right: 15%;
- }
- li {
+}
+
+li {
    font-size: 22px;
    font-weight: normal;
- }
+}
+
+/* wordt ook gebruikt voor de knop om terug naar boven te gaan in de pagina omdat dat compacter was qua code */
+table {
+   width: 1000px;
+   padding-top: 50px;
+   margin: auto;
+   margin-top: 50px;
+   text-align: center;
+}
+
+#back {
+   padding-top: 0px;
+}
+
+td {
+   padding: 20px;
+   height: fit-content;
+   font-size: large;
+   font-style: italic;
+   font-weight: 550;
+   padding-top: 60px;
+}
+
+.contable {
+   padding: 60px;
+}
